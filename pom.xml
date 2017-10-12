@@ -179,12 +179,10 @@
 				<version>0.3.1</version>
 			</extension>
 		</extensions>
-		<plugins>
-			<plugin>
+			<plugins>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactID>maven-dependency-plugin</artifactId>
+				<artifactId>maven-dependency-plugin</artifactId>
 				<version>3.0.1</version>
-			</plugin>
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
